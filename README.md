@@ -85,6 +85,6 @@ To implement the shell, we chose to understand and implement an **Abstract Synta
 ## Author
 - **tarrapunchia (fzucconi@student.42firenze.it)**
 
-This project was an invaluable learning experience in process handling, memory management, parsing, data structures...
-In summaray: in shell behavior (which i loved :).
+This project was an invaluable learning experience in process handling, memory management, parsing, data structures...<br>
+In summary: in shell behavior (which i loved :).
 
