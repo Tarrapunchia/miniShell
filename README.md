@@ -88,3 +88,5 @@ To implement the shell, we chose to understand and implement an **Abstract Synta
 This project was an invaluable learning experience in process handling, memory management, parsing, data structures...<br>
 In summary: in shell behavior (which i loved :).
 
+## Contributors
+This project is part of the 42 School Network (42Luiss Firenze) and was done together with three other amazing programmers: Ulisse Colla (ucolla), Stefano Montuori (smontuor) and Tommaso Picchio (tpicchio).
