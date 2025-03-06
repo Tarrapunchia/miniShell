@@ -1,4 +1,5 @@
 # Minishell
+![Logo](imgs/minishellLogo.png)
 As beautiful as a shell.
 
 ## Introduction
