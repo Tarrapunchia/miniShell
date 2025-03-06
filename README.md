@@ -83,7 +83,8 @@ To implement the shell, we chose to understand and implement an **Abstract Synta
 - Standard system calls: `fork`, `execve`, `pipe`, `dup2`, `waitpid`, etc.
 
 ## Author
-- **tarrapunchia**
+- **tarrapunchia (fzucconi@student.42firenze.it)**
 
-This project was an invaluable learning experience in process handling, memory management, and shell behavior.
+This project was an invaluable learning experience in process handling, memory management, parsing, data structures...
+In summaray: in shell behavior (which i loved :).
 
