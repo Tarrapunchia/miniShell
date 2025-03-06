@@ -1,6 +1,6 @@
 <h1 align="center">Minishell</h1>
 <p align="center">
-  <img src="imgs/minishellLogo.png" alt="Minishell Logo" width="300">
+  <img src="imgs/minishellLogo.png" alt="Minishell Logo" width="200">
 </p>
 <h2 align="center">As beautiful as a shell</h2>
 
@@ -8,6 +8,9 @@
 Minishell is a project from the 42 curriculum that involves creating a simple UNIX shell. The goal is to understand processes, file descriptors, and how a shell interprets and executes commands.
 
 This project was successfully completed with a perfect score of **125/100**, including the mandatory and bonus parts.
+<p align="center">
+  <img src="imgs/eval.png" alt="Eval" width="300">
+</p>
 
 ## Features
 
