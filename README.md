@@ -1,8 +1,9 @@
+<p align='center'>
 # Minishell
 ![Logo](imgs/minishellLogo.png)
 
 As beautiful as a shell.
-
+</p>
 ## Introduction
 Minishell is a project from the 42 curriculum that involves creating a simple UNIX shell. The goal is to understand processes, file descriptors, and how a shell interprets and executes commands.
 
