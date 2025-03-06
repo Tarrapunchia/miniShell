@@ -40,6 +40,9 @@ This project was successfully completed with a perfect score of **125/100**, inc
 - Logical operators `&&` and `||`, with support for parentheses to manage priorities.
 - Wildcard `*` expansion for matching files in the current directory.
 
+## Implementation Details
+To implement the shell, we chose to understand and implement an **Abstract Syntax Tree (AST)** as close as possible to the one used in the original **Bash**, to fully fulfill the spirit of the project. This approach ensures correct parsing and execution of complex command structures while maintaining scalability and efficiency.
+
 ## Installation
 1. Clone the repository:
    ```sh
@@ -74,7 +77,7 @@ This project was successfully completed with a perfect score of **125/100**, inc
 - Standard system calls: `fork`, `execve`, `pipe`, `dup2`, `waitpid`, etc.
 
 ## Author
-- **Tarrapunchia (fzucconi@student)**
+- **tarrapunchia**
 
 This project was an invaluable learning experience in process handling, memory management, and shell behavior.
 
