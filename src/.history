@@ -1,0 +1,14 @@
+echo $PWD
+echo $PWD
+echo $PWD
+cd -
+echo $PWD
+echo $PWD
+echo $PWD
+cd ..
+cd src/
+echo $PWD
+echo $OLDPWD
+cd -
+cd -
+cd -

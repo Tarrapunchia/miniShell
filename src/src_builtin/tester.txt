@@ -1,0 +1,93 @@
+Test   7: ❌ echo "$PWD" 
+mini output = ()
+bash output = (/nfs/homes/fzucconi/Desktop/minishell_gruppo/merge_forse/minishell_tester)
+mini exit code = 139
+bash exit code = 0 --> FATTO
+
+Test  13: ❌ echo "> >> < * ? [ ] | ; [ ] || && ( ) & # $  <<" 
+mini output = (> >> < bash_outfiles bash.supp bonus bonus_bonus builtins extras local.supp loop.out manual_tests mini_outfiles os_specific outfiles pipes README.md redirects syntax tester test_files wildcards ? [ ] | ; [ ] || && ( ) & # <<)
+bash output = (> >> < bash_outfiles bash.supp bonus bonus_bonus builtins extras local.supp loop.out manual_tests mini_outfiles os_specific outfiles pipes README.md redirects syntax tester test_files wildcards ? [ ] | ; [ ] || && ( ) & # $ <<)
+Test  15: ❌ echo "exit_code ->$? user ->$USER home -> $HOME" 
+mini output = (exit_code ->0 user ->fzucconi home -> /nfs/homes/fzucconic)
+bash output = (exit_code ->0 user ->fzucconi home -> /nfs/homes/fzucconi)
+Test  17: ❌ echo "$" 
+mini output = ()
+bash output = ($)
+mini exit code = 139
+bash exit code = 0
+Test  26: ❌ export A- 
+mini output = ( 'A-': not a valid identifier Error)
+bash output = ()
+mini exit code = 0
+bash exit code = 1
+mini error = ()
+bash error = ( not a valid identifier)
+Test  30: ❌ export HELLO-=123 
+mini output = ( 'HELLO-=123': not a valid identifier Error)
+bash output = ()
+mini exit code = 0
+bash exit code = 1
+mini error = ()
+bash error = ( not a valid identifier)
+Test  31: ❌ export = 
+mini output = ( Error)
+bash output = ()
+mini exit code = 0
+bash exit code = 1
+mini error = ()
+bash error = ( not a valid identifier)
+Test  32: ❌ export 123 
+mini output = ( '123': not a valid identifier Error)
+bash output = ()
+mini exit code = 0
+bash exit code = 1
+mini error = ()
+bash error = ( not a valid identifier)
+Test  39: ❌ cd $PWD 
+mini exit code = 139
+bash exit code = 0
+Test  40: ❌ cd $PWD hi 
+mini exit code =
+bash exit code = 1
+mini error = ( Too many arguments)
+bash error = ( too many arguments)
+Test  42: ❌ exit 123 
+mini exit code = 123
+bash exit code = 123
+mini error = (EXIT VAL IN 123)
+bash error = ()
+mini error = (EXIT VAL IN 42)
+bash error = ()
+Test  44: ❌ exit +100 
+mini exit code = 1
+bash exit code = 100
+mini error = ( numeric argument required)
+bash error = ()
+Test  45: ❌ exit "+100" 
+mini exit code = 1
+bash exit code = 100
+mini error = ( numeric argument required)
+bash error = ()
+Test  46: ❌ exit +"100" 
+mini exit code = 1
+bash exit code = 100
+mini error = ( numeric argument required)
+bash error = ()
+Test  47: ❌ exit -100 
+mini exit code = 1
+bash exit code = 156
+mini error = ( numeric argument required)
+bash error = ()
+Test  48: ❌ exit "-100" 
+mini exit code = 1
+bash exit code = 156
+mini error = ( numeric argument required)
+bash error = ()
+Test  49: ❌ exit -"100" 
+mini exit code = 1
+bash exit code = 156
+mini error = ( numeric argument required)
+bash error = ()
+Test  50: ❌ exit hello 
+mini exit code = 1
+bash exit code = 2
