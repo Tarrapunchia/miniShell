@@ -1,9 +1,9 @@
-<p align='center'>
-# Minishell
-![Logo](imgs/minishellLogo.png)
-
-As beautiful as a shell.
+<p align="center">
+  <img src="imgs/minishellLogo.png" alt="Minishell Logo" width="300">
 </p>
+
+<h1 align="center">Minishell</h1>
+
 ## Introduction
 Minishell is a project from the 42 curriculum that involves creating a simple UNIX shell. The goal is to understand processes, file descriptors, and how a shell interprets and executes commands.
 
